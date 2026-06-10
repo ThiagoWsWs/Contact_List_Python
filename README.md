@@ -1,34 +1,30 @@
-# Contact_List_Python
-Sistema de gerenciamento de contatos desenvolvido em Python com MySQL, utilizando CRUD completo, Colorama para interface de terminal e variáveis de ambiente para segurança das credenciais.
+# 📒 Contact List Manager
 
+A contact management system built with Python and MySQL.
 
-# 📒 Agenda de Contatos
+This project was developed to practice database integration with Python, implementing a complete CRUD (Create, Read, Update, Delete) application through a terminal-based interface.
 
-Sistema de gerenciamento de contatos desenvolvido em Python e MySQL.
+## 🚀 Features
 
-O projeto foi criado com o objetivo de praticar integração entre Python e banco de dados relacional, implementando um CRUD completo (Create, Read, Update e Delete) através de uma interface em terminal.
+* Add new contacts
+* View all contacts
+* Search contacts by name
+* Edit existing contacts
+* Delete contacts
+* Colored terminal interface using Colorama
+* MySQL database integration
+* Secure credential management using environment variables (.env)
 
-## 🚀 Funcionalidades
-
-* Adicionar contatos
-* Listar contatos
-* Buscar contatos por nome
-* Editar contatos
-* Excluir contatos
-* Interface colorida utilizando Colorama
-* Conexão com banco de dados MySQL
-* Utilização de variáveis de ambiente (.env) para proteção de credenciais
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 * Python 3
 * MySQL
 * mysql-connector-python
 * Colorama
-* Python-dotenv
-* Git e GitHub
+* python-dotenv
+* Git & GitHub
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```text
 Contact_List/
@@ -42,9 +38,9 @@ Contact_List/
 └── README.md
 ```
 
-## ⚙️ Configuração do Banco de Dados
+## ⚙️ Database Setup
 
-Crie o banco de dados no MySQL:
+Create the database and table in MySQL:
 
 ```sql
 CREATE DATABASE agenda_contatos;
@@ -59,53 +55,66 @@ CREATE TABLE contatos (
 );
 ```
 
-## 🔐 Configuração das Variáveis de Ambiente
+## 🔐 Environment Variables
 
-Crie um arquivo `.env` na raiz do projeto:
+Create a `.env` file in the project's root directory:
 
 ```env
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=sua_senha
+DB_PASSWORD=your_password
 DB_NAME=agenda_contatos
 ```
 
-## 📦 Instalação
+## 📦 Installation
 
-Clone o repositório:
+Clone the repository:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/Contact_List.git
+git clone https://github.com/YOUR_USERNAME/Contact_List.git
 ```
 
-Entre na pasta do projeto:
+Navigate to the project directory:
 
 ```bash
 cd Contact_List
 ```
 
-Instale as dependências:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Execute o sistema:
+Run the application:
 
 ```bash
 python main.py
 ```
 
-## 🎯 Objetivo
+## 🎯 Learning Objectives
 
-Este projeto foi desenvolvido para praticar:
+This project was developed to practice:
 
-* Programação em Python
-* Manipulação de banco de dados MySQL
-* Organização de projetos
-* Uso de Git e GitHub
-* Boas práticas de segurança com variáveis de ambiente
+* Python programming
+* MySQL database management
+* CRUD operations
+* Project organization and structure
+* Git and GitHub workflow
+* Secure handling of credentials with environment variables
 
-## 👨‍💻 Autor
+## 📈 Future Improvements
 
-Thiago Winicius da Silva
+* Email validation
+* Phone number validation
+* Contact sorting and filtering
+* Export contacts to CSV
+* User authentication system
+* Graphical User Interface (GUI)
+* REST API integration
+
+## 👨‍💻 Author
+
+**Thiago Winicius da Silva**
+
+GitHub: https://github.com/YOUR_USERNAME
